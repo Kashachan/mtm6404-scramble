@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1.scrambled {
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
+  margin: 1rem 0;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.score-board div h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.score-board div p {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  color: #444;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+
